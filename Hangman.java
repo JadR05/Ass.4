@@ -50,7 +50,7 @@ public class Hangman {
         String guessedLetters = "";
         int guessesleft = 8;
         String hint = "";
-        for (int i = 0; i < secretWord.length(); i++) {
+        for (int i = 0; i <secretWord.length(); i++) {
             hint += "-";
         }
         while (guessesleft > 0 && !hint.equals(secretWord)) {
