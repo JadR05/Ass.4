@@ -19,7 +19,7 @@ public class Hangman {
             int guessesleft = playOneGame(secretWord);
             if (guessesleft > 0) {
                 gamesWon++;
-                bestgame = Math.max(bestgame, guessesleft);
+                bestgame =Math.max(bestgame, guessesleft);
             }
             while (true) {
                 Scanner in = new Scanner(System.in);
